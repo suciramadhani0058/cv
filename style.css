@@ -1,0 +1,78 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+.container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    width: 210mm;
+    height: 297mm;
+    overflow: hidden;
+    box-shadow: 0px 0px 10 px rgba(red, green, blue, 7);
+}
+.container .card-one {
+    padding: 40px 20 px;
+    padding-left: 35px;
+    background-color: #d1d1d1;
+    width: 100%;
+    color: #313131;
+
+}
+.container .card-one .profile {
+    display: inline-flex;
+    margin-bottom: 5px;
+    margin-left: -15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid #2c2b29;
+    background-image: url("image/TKJ\ 1\ \(29\).JPG");
+    background-position:  center top;
+    background-size: 100%;
+}
+.container .card-one .contact-box {
+    margin-top: 10px;
+}
+.container .card-one .contact-box>* {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr
+    margin-top 25px;
+    align-items: center;
+}
+.container .card-one .contact-box> * .text{
+   display: inline flex;
+   word-break: break-all;
+}
+.container .card-one .personal-box {
+    margin-top: 35px;
+}
+.container .card-one .personal-box .dot {
+   display: inline-block;
+   width: 10px;
+   height: 10px;
+   background-color: aqua;
+   border-radius: 4px;
+}
+.container .card-one .personal-box .dot.active {
+    background-color: #b23456;
+} 
+.container .card-two {
+background-color: #b23456;
+padding: 40px 20px;
+padding-right: 75px;
+color:#d1d1d1;
+}
+.container .card-two .box {
+   display: inline-block;
+   padding: 2px 70px 2px 20px;
+   margin-left: -20px;
+    margin-top: 35px;
+    background-color: #b23456;
+}
